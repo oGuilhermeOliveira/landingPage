@@ -401,6 +401,21 @@ a {
   opacity: 0.9;
 }
 
+.card-visual__tag-row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.card-visual__mascot {
+  height: 9.25rem;
+  width: auto;
+  display: block;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
 .card-visual__tag {
   position: relative;
   font-size: 0.65rem;
